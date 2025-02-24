@@ -1,0 +1,39 @@
+.cleaner-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cleaner-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.cleaner-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.cleaner-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+
+.status-message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
